@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { RouterOutlet } from '@angular/router'; <-- Убираем этот импорт, он не нужен
 
 import { Header } from './header/header';
 import { Sidebar } from './sidebar/sidebar';

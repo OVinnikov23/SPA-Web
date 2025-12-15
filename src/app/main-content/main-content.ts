@@ -3,11 +3,10 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-main-content',
-  standalone: true,  // <--- Це виправляє помилку
+  standalone: true,
   imports: [CommonModule],
-  templateUrl: './main-content.html', // Перевір, щоб ім'я збігалося з файлом зліва
+  templateUrl: './main-content.html',
   styleUrls: ['./main-content.css']
 })
 export class MainContent {
-  // Тут може бути логіка контенту
 }

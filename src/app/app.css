@@ -1,13 +1,12 @@
-/* Виправляємо назву класу: було .main-container, стало .app-container (як у HTML) */
 .app-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Додаємо стилі для .main-body, щоб поставити Сайдбар і Контент поруч */
+
 .main-body {
-    display: flex; /* Це головне для розміщення в рядок */
+    display: flex;
     flex: 1;
 }
 
