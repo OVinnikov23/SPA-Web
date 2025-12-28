@@ -1,12 +1,13 @@
+// src/app/main-content/main-content.ts
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { UserProfileComponent } from '../user-profile/user-profile';
 
 @Component({
   selector: 'app-main-content',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, UserProfileComponent],
   templateUrl: './main-content.html',
-  styleUrls: ['./main-content.css']
+  styleUrl: './main-content.css'
 })
-export class MainContent {
-}
+export class MainContentComponent { }
